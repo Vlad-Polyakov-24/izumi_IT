@@ -815,14 +815,14 @@
 		padding: 0 0 10px 0;
 		border-bottom: 1px solid #C4C4C4;
 	}
-	.contacts-text p {
+	.contacts-text span {
 		min-width: 100px;
 	}
-	.contacts-text:nth-child(6) p{
+	.contacts-text:nth-child(6) span{
 		align-self: flex-start;
 		margin: 10px 0 0 0;
 	}
-	.contacts-text span {
+	.red {
 		color: red;
 	}
 	.input {
@@ -1325,13 +1325,13 @@
 		.contacts-text {
 			flex-direction: column;
 		}
-		.contacts-text p {
+		.contacts-text span {
 			min-width: unset;
 		}
-		.contacts-text p {
+		.contacts-text span {
 			margin: 0 0 10px 0;
 		}
-		.contacts-text:nth-child(6) p {
+		.contacts-text:nth-child(6) span {
 			align-self: center;
 			margin: 0 0 10px 0;
 		}

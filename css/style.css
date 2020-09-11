@@ -916,6 +916,7 @@
 	.footer__top-item {
 		flex: 0 1 50%;
 		align-items: center;
+		font-style: normal;
 	}
 	.footer__top-item:first-child {
 		padding: 0 10px 0 0;

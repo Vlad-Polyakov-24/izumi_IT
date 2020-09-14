@@ -5,8 +5,6 @@
 		border: 0;
 	}
 	*,*:before,*:after{
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 	:focus,:active{outline: none;}
@@ -280,9 +278,7 @@
 		[data-type="swipe"]:hover:before {
 			left: 0;
 			z-index: -5;
-			-webkit-transform: scale(1.2);
 			transform: scale(1.2);
-			-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 			transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 			-webkit-transition-duration: 0.5s;
 			transition-duration: 0.5s;
@@ -705,6 +701,7 @@
 		padding: 5px;
 	}
 	.portfolio__column img {
+		-o-object-fit: cover;
 		object-fit: cover;
 		width: 100%;
 	}

@@ -24,12 +24,13 @@ $('.header__menu-icon').click(function (event) {
 	$(this).toggleClass('active');
 	$('.header__menu').toggleClass('active');
 	$('body').toggleClass('lock');
+	$('header').toggleClass('header__lock');
 });
 
 $('.header__menu-link').click(function (event) {
 	$('body').removeClass('lock');
 	$('.header__menu').removeClass('active');
 	$('.header__menu-icon').removeClass('active');
+	$('header').removeClass('header__lock');
 });
-
 /*=========*/
